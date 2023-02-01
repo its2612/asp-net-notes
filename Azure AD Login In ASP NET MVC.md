@@ -15,12 +15,12 @@ With above steps you will get the client ID,Tenant ID and Client Sectret.
 ### If you want only selected user or group to login in your site then follow below steps
 
 1. Open your registred app then go in Token Configuration
-2. Add Group Claims and select "Group Assigned to the application" and add it.
+2. Add Group Claims and select "Group Assigned to the application" and add it
 3. Go to overview and open url for "Managed application in local directory"
 4. Click "Assign Users and Groups" Url
 5. Then click on Add User/group and add user or group
 6. After that in left panel of "Manage application interface" you will see "properties" open
-7. Open it and mark "Assignment Required" to Yes.
+7. Open it and mark "Assignment Required" to Yes
 
 -------------------------------------------------------------------------------
 
