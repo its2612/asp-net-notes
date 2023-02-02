@@ -87,7 +87,7 @@ public async Task<string> getUserDisplayNameFromAzure(string objectId)
             {               
                 var userDetails =  graphClient.Users[userss.Id].Request().Select("displayName,givenName,CompanyName,State,Department,OfficeLocation,JobTitle,MobilePhone,OfficeLocation,city,surname,postalCode,identities,OnPremisesSamAccountName,Mail").GetAsync().GetAwaiter().GetResult();
                 if (userDetails != null)
-                {               
+                {                
 
                     groupUsers.Add(new userData
                     {
@@ -102,7 +102,8 @@ public async Task<string> getUserDisplayNameFromAzure(string objectId)
                         title = userDetails.JobTitle,
                         st=userDetails.State
                     });
-                }               
+                }
+               
             }
             return groupUsers;
         }
