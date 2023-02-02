@@ -2,6 +2,16 @@
 * Azure.Identity
 * Azure.Identity
 
+
+### Permission need to provide from Azure App Registration
+* Open your registered app in Azure Active Directory
+* Open API Permission section
+* Add a permission
+* Select Microsoft Graph
+* Select Application Permission
+* Add below listed permission if you want user or group details
+![[Pasted image 20230202194723.png]]
+
 ## Fetch Azure User details By Azure Object ID
 
 ```C#
