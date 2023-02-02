@@ -10,7 +10,10 @@
 * Select Microsoft Graph
 * Select Application Permission
 * Add below listed permission if you want user or group details
-![[Pasted image 20230202194723.png]]
+1. Directory.Read.All
+2. Group.ReadWrite.All
+3. GroupMember.ReadWrite.All
+4. User.ReadWrite.All
 
 ## Fetch Azure User details By Azure Object ID
 
