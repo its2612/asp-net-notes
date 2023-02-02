@@ -43,7 +43,7 @@ public async Task<string> getUserDisplayNameFromAzure(string objectId)
 ```
 
 
-## Fetch User List By Security Group ID
+## Fetch UserList By Security Group ID
 
 ```C#
         public async Task<List<userData>> getAllUserOfGroupByGroupId(string groupId)
@@ -68,6 +68,7 @@ public async Task<string> getUserDisplayNameFromAzure(string objectId)
 
             var clientSecretCredential = new ClientSecretCredential(
                 tenant, clientId, clientSecret, options);
+
             var graphClient = new GraphServiceClient(clientSecretCredential, scopes);
 
             List<Microsoft.Graph.User> graphUser = new List<Microsoft.Graph.User>();
@@ -101,7 +102,8 @@ public async Task<string> getUserDisplayNameFromAzure(string objectId)
                         title = userDetails.JobTitle,
                         st=userDetails.State
                     });
-                }               
+                }
+               
             }
             return groupUsers;
         }
