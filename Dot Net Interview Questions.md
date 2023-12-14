@@ -16,3 +16,17 @@
 15. Static keyword in abstract classes
 16. ref,in,out
 17. multiple inheritance
+18. routing in MVC
+19. Lifecycle
+20. ASP NET MVC vs Webforms
+21. Action method return type
+22. Exception handling
+23. View type
+24. Viewbag vs viewdata
+25. Dependency Injection in MVC
+26. Passing data from controller to controller
+27. Tempdata.keep and Tempdata.peek
+28. Multithreading 
+29. Asynchronous programming vs parallel programming
+30. Thread vs Task
+31. .result and continueAwa
